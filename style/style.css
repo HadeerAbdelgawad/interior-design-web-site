@@ -171,24 +171,21 @@ main{
         grid-template-columns: 100%;
         grid-template-rows: 1fr;
     }
-    .mesures{
-        display: flex;
-        justify-content: center;
-        align-items: center ;
-        margin-right: 250px;
-    }
     .sec2-info{
         margin: 0;
     }
     .sec2-img{
+        /* width: 100%; */
         margin: 0;
         padding: 0;
-        
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
     }
     .sec2-img img{
-        /* width: 100v; */
-        width: 90%;
-        
+        width: 100%;
+        margin-left: -285px;
+        /* margin-right: 40px; */
     }
     .sec2-img .border{
         display: none;
@@ -380,7 +377,6 @@ main{
         margin-bottom: 50px;
         margin-top: -10px;
     }
-
 }
 /* ////////////////////////////////////////////////////////////////// */
 .dream2{
@@ -565,7 +561,7 @@ main{
     max-width: 730px;
 }
 .footer-sec2{
-    min-width: 100%;
+    max-width: 100%;
     min-height: 450px;
     background-color: rgb(28, 28, 28);
     margin: auto;
@@ -674,9 +670,6 @@ main{
     margin-top: 35px;
 }
 @media (max-width: 1024px) {
-    footer{
-        width: 100%;
-    }
     .footer-sec1{
         width: 100%;
         text-align: center;
@@ -713,9 +706,6 @@ main{
     }
 }
 @media (max-width: 1800px) {
-    footer{
-        width: 100%;
-    }
     .footer-sec1{
         width: 100%;
         text-align: center;
